@@ -1,0 +1,124 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebApiPelicula</name>
+    </assembly>
+    <members>
+        <member name="M:WebApiPelicula.Controllers.CategoriesController.GetCategories">
+            <summary>
+            To get all categories
+            </summary>
+            <returns></returns>
+            
+        </member>
+        <member name="M:WebApiPelicula.Controllers.CategoriesController.GetCategory(System.Int32)">
+            <summary>
+            To get a category
+            </summary>
+            <param name="categoryId"> the category id </param>
+            <returns></returns>
+            
+        </member>
+        <member name="M:WebApiPelicula.Controllers.CategoriesController.CreateCategory(WebApiPelicula.Models.Dtos.CategoryDto)">
+            <summary>
+            To create a new category
+            </summary>
+            <param name="categoryDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApiPelicula.Controllers.CategoriesController.UpdateCategory(System.Int32,WebApiPelicula.Models.Dtos.CategoryDto)">
+            <summary>
+            To update a category that alredy exists
+            </summary>
+            <param name="categoryId"></param>
+            <param name="categoryDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApiPelicula.Controllers.CategoriesController.DeleteCategory(System.Int32)">
+            <summary>
+            To delete a category
+            </summary>
+            <param name="categoryId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApiPelicula.Controllers.MoviesController.GetMovies">
+             <summary>
+             To Get All Movies
+             </summary>
+             <returns></returns>
+            
+        </member>
+        <member name="M:WebApiPelicula.Controllers.MoviesController.GetMovie(System.Int32)">
+            <summary>
+            To Get a Movie
+            </summary>
+            <param name="movieId">Movie Id</param>
+            <returns></returns>
+            
+        </member>
+        <member name="M:WebApiPelicula.Controllers.MoviesController.GetMovieInCategory(System.Int32)">
+            <summary>
+            To get the movies by the category
+            </summary>
+            <param name="categoryId">Category Id</param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApiPelicula.Controllers.MoviesController.Search(System.String)">
+            <summary>
+            To get a Movie by its name
+            </summary>
+            <param name="name">Movie's Name</param>
+            <returns></returns>
+            
+        </member>
+        <member name="M:WebApiPelicula.Controllers.MoviesController.CreateMovie(WebApiPelicula.Models.Dtos.CreateMoviesDto)">
+            <summary>
+            To create a Movie
+            </summary>
+            <param name="createMovieDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApiPelicula.Controllers.MoviesController.UpdateMovie(System.Int32,WebApiPelicula.Models.Dtos.UpdateMovieDto)">
+            <summary>
+            To update a movie
+            </summary>
+            <param name="movieId"></param>
+            <param name="movieDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApiPelicula.Controllers.MoviesController.DeleteMovie(System.Int32)">
+            <summary>
+            To delete a movie
+            </summary>
+            <param name="movieId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApiPelicula.Controllers.UsersController.GetUsers">
+            <summary>
+            To get All Users
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WebApiPelicula.Controllers.UsersController.GetUser(System.Int32)">
+            <summary>
+            To Get a User by its id 
+            </summary>
+            <param name="userId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApiPelicula.Controllers.UsersController.Register(WebApiPelicula.Models.Dtos.UserAuthDto)">
+            <summary>
+            To Register a new User
+            </summary>
+            <param name="userAuthDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApiPelicula.Controllers.UsersController.Login(WebApiPelicula.Models.Dtos.UserAuthLoginDto)">
+            <summary>
+            To log in
+            </summary>
+            <param name="userAuthLogin"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
